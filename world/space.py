@@ -1,3 +1,3 @@
-class Planet:
-    def __init__(self)->None:
-        pass
+class BaseSpace:
+    def __init__(self, system:dict)->None:
+        self.system = system
